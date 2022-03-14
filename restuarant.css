@@ -1,6 +1,9 @@
 body {
   background-image: url("images/background2.jpeg");
   background-color: darkslategray;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   margin: 0;
   
 }
@@ -15,26 +18,6 @@ li a:hover {
   background-color: #ddd;
   color: black;
 }
-.dropdown-menu {
-  float: right;
-  overflow: hidden;
-}
-.hidden-link{
-  display: block;
-}
-.dropdown-content {
-  display: none;
-}
-.dropdown-content a:hover {
-  background-color: red;
-}
-
-.hidden-link{
-  display: block;
-}
-.dropdown-menu:hover .dropdown-content{
-  display:block;
-}
 #motto{
   float: left;
   color: white;
@@ -45,8 +28,13 @@ li a:hover {
   background-color: #04aa6d;
 }
 
+h1 {
+  margin-right: auto;
+  margin-left: auto;
+}
+
 article {
-  margin: 50px 40px 20px 20px;
+  margin: 50px 70px 20px 20px;
   background-color: burlywood;
   float:left;
   padding: 15px;
@@ -140,4 +128,9 @@ footer {
 
 .top-button:hover{
   transform: scale(1.1);
+}
+button {
+margin-top: 23px;
+border-left-style: solid;
+margin-left: 7px;
 }
